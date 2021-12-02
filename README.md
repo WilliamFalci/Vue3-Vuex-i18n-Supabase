@@ -3,8 +3,11 @@
 ### References
 
 Vue3: [https://v3.vuejs.org/](https://v3.vuejs.org/)
+
 Vuex: [https://next.vuex.vuejs.org/](https://next.vuex.vuejs.org/)
+
 Vue-Router: [https://next.router.vuejs.org/](https://next.router.vuejs.org/)
+
 Vue-Axios: [https://github.com/imcvampire/vue-axios](https://github.com/imcvampire/vue-axios)
 
 Supabase: [https://supabase.com/](https://supabase.com/)
