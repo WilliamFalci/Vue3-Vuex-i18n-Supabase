@@ -1,13 +1,23 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld :msg="$t('uniqueTerms.hello') + ',Welcome to Your Vue.js App'"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { useI18n } from "vue-i18n";
+
+import HelloWorld from './views/HelloWorld.vue'
 
 export default {
   name: 'App',
+  setup() {
+    const { t } = useI18n({
+      inheritLocale: true,
+      useScope: "local",
+    });
+
+    return { t };
+  },
   components: {
     HelloWorld
   }
