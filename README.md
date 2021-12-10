@@ -10,7 +10,7 @@ Vue-Router: [https://next.router.vuejs.org/](https://next.router.vuejs.org/)
 
 Vue-Axios: [https://github.com/imcvampire/vue-axios](https://github.com/imcvampire/vue-axios)
 
-Supabase: [https://supabase.com/](https://supabase.com/) | [https://github.com/DidoMarchet/vue-3-supabase](https://github.com/DidoMarchet/vue-3-supabase)
+Supabase: [https://supabase.com/](https://supabase.com/) | [https://github.com/supabase/supabase-js](https://github.com/supabase/supabase-js) Integrated with Custom VUE Plugin (Look /supabase/supabase.js)
 
 
 ## Project setup

@@ -6,7 +6,7 @@ import router from './router/index.js'
 import i18n from './i18n/i18n.js'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-import supabase from 'vue-3-supabase'
+import supabase from './supabase/supabase'
 
 console.log(process.env)
 createApp(App)
